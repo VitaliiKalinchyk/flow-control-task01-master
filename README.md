@@ -6,10 +6,9 @@ Estimated workload of this exercise is _30 min_.
 
 ### Description
 Please, proceed to [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java) class
-and implement its static methods:
+and implement its static method:
 ---
 * `int task1(int n)`\
-  Task 1:
   For a positive integer n calculate the result value, which is equal to the sum of the odd numbers of n.
 
 ###  Example:  
@@ -25,22 +24,11 @@ Code Sample:
 ```java
 ...
 System.out.println(LoopStatements.task1(1234));
-```
-
-Output:
-```
-4
-```
-
----
-Code Sample:
-```java
-...
 System.out.println(LoopStatements.task1(246));
 ```
 
 Output:
 ```
+4
 0
 ```
-
