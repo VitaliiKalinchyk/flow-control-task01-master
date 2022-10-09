@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class LoopStatementsTest {
 
     @Test
-    public void test1SimpleCase() {
+    public void testSumOddDigitsSimpleCase() {
 
-        assertEquals(4, LoopStatements.task1(1234));
-        assertEquals(0, LoopStatements.task1(246));
-        assertEquals(3, LoopStatements.task1(111));
+        assertEquals(4, LoopStatements.sumOddDigits(1234));
+        assertEquals(0, LoopStatements.sumOddDigits(246));
+        assertEquals(3, LoopStatements.sumOddDigits(111));
 
         
     }

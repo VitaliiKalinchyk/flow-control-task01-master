@@ -7,7 +7,7 @@
 Будь ласка, перейдіть до класу [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java)
 і реалізуйте його статичний метод:
 ---
-* `int task1(int n)`\
+* `int sumOddDigits(int n)`\
  Для натурального числа n обчисліть значення, яке дорівнює сумі непарних чисел числа n.
 ### Приклад:
 `n = 1234 ` -> результат = 4
@@ -22,8 +22,8 @@
 Code Sample:
 ```java
 ...
-System.out.println(LoopStatements.task1(1234));
-System.out.println(LoopStatements.task1(246));
+System.out.println(LoopStatements.sumOddDigits(1234));
+System.out.println(LoopStatements.sumOddDigits(246));
 ```
 
 Output:

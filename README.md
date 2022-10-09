@@ -8,7 +8,7 @@ Estimated workload of this exercise is _30 min_.
 Please, proceed to [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java) class
 and implement its static method:
 ---
-* `int task1(int n)`\
+* `int sumOddDigits(int n)`\
   For a positive integer n calculate the result value, which is equal to the sum of the odd numbers of n.
 
 ###  Example:  
@@ -23,8 +23,8 @@ and implement its static method:
 Code Sample:
 ```java
 ...
-System.out.println(LoopStatements.task1(1234));
-System.out.println(LoopStatements.task1(246));
+System.out.println(LoopStatements.sumOddDigits(1234));
+System.out.println(LoopStatements.sumOddDigits(246));
 ```
 
 Output:
